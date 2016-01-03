@@ -1,0 +1,91 @@
+---
+layout: default
+class: home
+---
+<header class="Intro">
+  <h1 class="Intro-brand">
+    <object data="img/logo.svg">
+      <img class="logo-intro" src="img/logo.png" alt="iinbrand">
+    </object>
+  </h1>
+
+  <div class="animated fadeIn">
+    <div class="Intro-beta">BETA</div>
+    
+    <h2>{{ site.intro_top }}</h2>
+    <p>{{ site.intro_detail }}</p>
+
+    <div class="Intro-actions">
+      <a href="#" class="Button">Get start</a>
+      <a href="{{ site.baseurl }}/docs" class="Button">Documentation</a>
+    </div>
+  </div>
+</header>
+
+<div class="animated fadeUp">
+
+  <div class="Features">
+    <div class="Carousel">
+      <div class="CarouselItem">
+        <img src="img/features/icons/blue/ui.svg" class="CarouselItem-icon">
+        <div class="CarouselItem-label">Easy</div>
+      </div>
+      <div class="CarouselItem">
+        <img src="img/features/icons/blue/touch.svg" class="CarouselItem-icon">
+        <div class="CarouselItem-label">Touch-Optimized</div>
+      </div>
+      <div class="CarouselItem">
+        <img src="img/features/icons/blue/real-time.svg" class="CarouselItem-icon">
+        <div class="CarouselItem-label">Real-Time </div>
+      </div>
+      <div class="CarouselItem">
+        <img src="img/features/icons/blue/seo.svg" class="CarouselItem-icon">
+        <div class="CarouselItem-label">Reports</div>
+      </div>
+      <div class="CarouselItem">
+        <img src="img/features/icons/blue/localization.svg" class="CarouselItem-icon">
+        <div class="CarouselItem-label">Localization</div>
+      </div>
+      <div class="CarouselItem">
+        <img src="img/features/icons/blue/moderation.svg" class="CarouselItem-icon">
+        <div class="CarouselItem-label">Moderation Tools</div>
+      </div>
+    </div>
+
+    <p class="Features-text">
+      Launching app on your device anywhere and anytime you need it. Brand owner see result dashboards, geographic map and reports
+    </p>
+
+    <div class="Features-actions">
+      <a href="{{ site.baseurl }}/docs" class="Button">Learn about iinbrand features</a>
+    </div>
+  </div>
+
+  {% include team.html %}
+  
+  {% include actions.html %}
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+  $(function() {
+    var $carousel = $('.Carousel');
+    $carousel.wrapInner($('<div class="CarouselGroup"/>'));
+    var $group = $('.CarouselGroup');
+    var $group2 = $group.clone().appendTo($carousel);
+
+    var animate = function() {
+      $group.css({marginLeft: 0}).animate({marginLeft: -$group.width()}, 70000, 'linear').promise().done(function() {
+        animate();
+      });
+    };
+
+    animate();
+
+    if (window.devicePixelRatio > 1) {
+      var $screenshot = $('.Home-screenshot img');
+
+      $screenshot.attr('src', $screenshot.attr('src').replace('.', '_2x.'));
+    }
+  });
+</script>

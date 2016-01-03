@@ -1,0 +1,49 @@
+//
+// variables
+//
+
+// colors
+$primary-color: #00c896;
+$hover-color: #159375;
+$border-color: lighten($hover-color,10%);
+$border-top: $hover-color;
+
+$secondary-color: #777777;
+$tertiary-color: #f4d03f;
+
+$headerbar-color: #9ca8bd;
+
+$docs-color: #3C5675;
+
+$background-color: #fff;
+
+$white-color: $background-color;
+$silver-color: darken($white-color, 22%);
+$gray-color: darken($white-color, 42%);
+$gray-dark-color: #2d3138;
+$code-color: #ededed;
+$blue-color: #766dcc;
+
+$success-color: #00E600;
+$error-color: #f04124;
+
+$facebook-color: #3b599f;
+$twitter-color: #28a9e0;
+
+// font colors
+$txt-color: rgba($gray-dark-color, .8);
+$base-font-color: $txt-color;
+$action-color: $primary-color;
+
+// border
+$base-border-color: lighten($hover-color, 10%);
+$base-border: 1px solid $base-border-color;
+
+// background colors
+$base-background-color: $white-color;
+$secondary-background-color: tint($base-border-color, 75%);
+
+
+// link
+$link-color: $facebook-color;
+$link-hover-color: shade($link-color, 10%);

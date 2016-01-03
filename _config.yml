@@ -1,0 +1,58 @@
+markdown: kramdown
+title: Developer - iinbrand
+email: code@iinbrand.com
+description: "iinbrand"
+baseurl: ""
+url: "http://code.iinbrand.com"
+twitter_username: iinbrand
+facebook_username: iinbrand
+google_analytics_id: UA-55654594-4
+kramdown:
+  input: GFM
+
+collections:
+  docs:
+    output: true
+
+exclude: ["*.sublime-project", "*.sublime-workspace", "serve.sh", "serve.bat", "README.md", "scripts", "public"]
+
+intro_top: "iinbrand Protect your Brand."
+intro_detail: "iinbrand Protect your Brand."
+
+#force-https: false
+
+########
+# Blog #
+########
+email-share: False
+fb-share: True
+twitter-share: True
+linkedin-share: False
+reddit-share: False
+google-plus-share: True
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+
+disqus-shortname: "iinbrand"
+
+syntax-highlight: True
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: False
+
+social:
+  - title: "facebook"
+    url: "https://facebook.com/iinbrand"
+  - title: "twitter"
+    url: "https://twitter.com/iinbrand"
+  - title: "github"
+    url: "https://github.com/iinbrand"
+  - title: "linkedin"
+    url: "https://th.linkedin.com/in/iinbrand"

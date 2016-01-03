@@ -1,0 +1,16 @@
+<header class="Header">
+  <div class="container">
+    <h1 class="Header-brand">
+      <a href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" width="149" height="34">
+      </a>
+    </h1>
+
+    <nav class="Header-nav">
+      {% assign current = page.url | downcase | split: '/' %}
+      <a href="{{ site.baseurl }}/docs" {% if current[1] == 'features' %}class="active"{% endif %}>Documentation</a>
+        <a href="https://iinb.ga/admin">ShortenURL</a>
+        <a href="https://iinbrand.com">iinbrand.com</a>
+    </nav>
+  </div>
+</header>
