@@ -2,9 +2,21 @@ language: ruby
 rvm:
 - 2.1
 
-install: gem install jekyll jekyll-paginate jemoji html-proofer github-pages
-script: JEKYLL_ENV=production jekyll serve --baseurl "" --detach && htmlproof ./_site --disable-external --empty-alt-ignore
-
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+gemfile: travisGemfile
+
+install:
+- bundle install
+- gem install jekyll jekyll-paginate jemoji html-proofer github-pages
+
+branches:
+  only:
+  - gh-pages
+  
+script: JEKYLL_ENV=production jekyll serve --baseurl "" --detach && htmlproof ./_site --disable-external --empty-alt-ignore
+
+notifications:
+  email: false
