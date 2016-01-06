@@ -2,8 +2,12 @@ language: ruby
 rvm:
 - 2.1
 
+branches:
+  only:
+  - gh-pages
+
 install: 
-  - gem install jekyll jekyll-paginate jemoji html-proofer github-pages kramdown
+  - gem install jekyll jekyll-paginate jemoji github-pages kramdown
   - bundle install
 script: JEKYLL_ENV=production jekyll serve --baseurl "" --detach && htmlproof ./_site --disable-external --empty-alt-ignore
 
@@ -13,9 +17,7 @@ env:
 
 #gemfile: travisGemfile
 
-branches:
-  only:
-  - gh-pages
+
 
 notifications:
   email: false
