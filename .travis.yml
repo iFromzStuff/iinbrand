@@ -10,7 +10,7 @@ install:
   - gem install jekyll jekyll-paginate jemoji github-pages kramdown
 #  - bundle install
 
-script: JEKYLL_ENV=production jekyll serve --baseurl "" --detach && htmlproof ./_site --disable-external --empty-alt-ignore
+script: JEKYLL_ENV=production jekyll serve --baseurl "" --detach
 
 env:
   global:
