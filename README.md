@@ -12,8 +12,8 @@
     </a>
     <a href="#">
         <img src="https://img.shields.io/badge/iinbrand-docs-1ab691.svg?style=flat-squaree"
-             alt="Application">
     </a>
+             alt="Application">
 
     <a href="https://github.com/iinbrand/docs">
         <img src="https://img.shields.io/github/stars/iinbrand/docs.svg?style=social&label=Star"
@@ -36,8 +36,8 @@
 
 Documentation
 
-
 [ico-iinbrand]: https://img.shields.io/badge/iinbrand-v1.0-1ab691.svg?style=flat-square
+
 [ico-tag]: https://img.shields.io/github/tag/iinbrand/docs.svg?style=flat-square
 
 [link-tag]: https://github.com/iinbrand/docs/tags
