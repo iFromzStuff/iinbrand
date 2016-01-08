@@ -11,11 +11,11 @@ Introduction for iinbrand and issues here.
 
 Domain | Link | Build
 ------- | ---------------- | ---------- | 
-Official website  |https://iinbrand.com |
-API Server | https://iinbrand.com | ![build-api-codeship] ![build-api-travis]
-URL Shorthen  | https://iinb.ga        |
-CDN | https://cdn.iinb.ga | 
-Demo | http://demo.iinbrand.com |
+Official website  |[iinbrand.com][url-iinbrand] |
+API Server | [api.iinbrand.com][url-api] | ![build-api-codeship] ![build-api-travis]
+URL Shorthen  | [iinb.ga][url-short]        |
+CDN | [cdn.iinb.ga][url-cdn] | 
+Demo | [demo.iinbrand.com][url-demo] |
 
 ---
 
@@ -35,13 +35,20 @@ comming Soon..
 
 ## Team
 
-- Prajuktar Kaewmanee (Fromz) ([GitHub](http://github.com/pkfrom), [Twitter](http://twitter.com/pkfrom)) – Core Developer
+- Prajuktar Kaewmanee (Fromz) @pkfrom ([GitHub](http://github.com/pkfrom), [Twitter](http://twitter.com/pkfrom)) – Core Developer
 - Attapong Jakkrawantanarak (Ton) - iOS Developer
 - Pakkapon Jirachatmongkon (May) - Andriod Developer
 
 [link-docs]: #
 [link-faq]: #
 [link-info]: #
+
+[url-iinbrand]: https://iinbrand.com
+[url-api]: https://api.iinbrand.comt
+[url-doc]: http://docs.iinbrand.com
+[url-short]: https://iinb.ga
+[url-cdn]: https://cdn.iinbrand.com
+[url-demo]: http://demo.iinbrand.com
 
 [build-api-codeship]: https://codeship.com/projects/2c072e30-9589-0133-9335-4a53072d6648/status?branch=master
 [build-api-travis]: https://travis-ci.com/pkfrom/api-server.svg?token=CKNmmWMzvESXkb4Jy7Kp&branch=master
