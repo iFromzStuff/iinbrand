@@ -5,8 +5,8 @@ markdown: kramdown
 title: Developer - iinbrand
 email: code@iinbrand.com
 description: "iinbrand"
-baseurl: "/iinbrand"
-url: "ifromzstuff.github.io"
+baseurl: ""
+url: "http://code.iinbrand.com"
 twitter_username: iinbrand
 facebook_username: iinbrand
 google_analytics_id: UA-55654594-4
@@ -21,7 +21,7 @@ intro_top: "iinbrand Protect your Brand."
 intro_detail: "iinbrand Protect your Brand."
 
 #force-https: false
-# highlighter: pygments
+highlighter: pygments
 ########
 # Blog #
 ########
