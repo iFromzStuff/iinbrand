@@ -21,7 +21,7 @@ intro_top: "iinbrand Protect your Brand."
 intro_detail: "iinbrand Protect your Brand."
 
 #force-https: false
-highlighter: pygments
+# highlighter: pygments
 ########
 # Blog #
 ########
