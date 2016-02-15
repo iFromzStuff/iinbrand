@@ -1,12 +1,12 @@
-- title: Docs
+- title: Introduction
   docs:
   -
   - contributing
+  - api
 
 
-- title: Using
+- title: Uses
   docs:
   - start
   - troubleshooting
   - FAQ
-

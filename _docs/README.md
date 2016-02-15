@@ -1,20 +1,16 @@
-#iinbrand ![IINBRAND](https://cdn.rawgit.com/iinbrand/artwork/master/logo/logox32.svg)
+# iinbrand ![logo][logo]
 
 <p align="center">
-    <img src="https://cdn.rawgit.com/iinbrand/artwork/master/logo/logox120.svg"height="130">
+    <img src="https://cdn.iinb.ga/img/logo/logox120.svg"height="130">
 </p>
 <p align="center">
 
-<a href="https://github.com/iinbrand/iinbrand">
-    <img src="https://img.shields.io/github/tag/iinbrand/iinbrand.svg?style=flat">
+<a href="#">
+    <img src="https://img.shields.io/badge/iinbrand-docs-1ab691.svg?style=flat">
 </a>
 
-<a href="#">
-    <img src="https://img.shields.io/badge/iinbrand-iinbrand-1ab691.svg?style=flat">
-</a>
-    
-<a href="https://github.com/iinbrand/iinbrand">
-    <img src="https://img.shields.io/github/stars/iinbrand/iinbrand.svg?style=social&label=Star"alt="star">
+<a href="">
+    <img src="https://img.shields.io/github/tag/iinbrand/docs.svg?style=flat&label=version">
 </a>
 
 <a href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw&region=follow_link&screen_name=iinbrand&tw_p=followbutton">
@@ -36,15 +32,15 @@
 Introduction for iinbrand and issues here.
 ----
 
-## All URL
+## Information
 
-Domain | Link | Build
+Domain | Link | Info
 ------- | ---------------- | ---------- | 
-Official website  |[iinbrand.com][url-iinbrand] |
+Official website  |[iinbrand.com][url-iinbrand] | ![img-iinbrand-site]
 API Server | [api.iinbrand.com][url-api] | ![build-api-codeship] ![build-api-travis]
-URL Shorthen  | [iinb.ga][url-short]        |
-CDN | [cdn.iinb.ga][url-cdn] | 
-Demo | [demo.iinbrand.com][url-demo] |
+URL Shorthen  | [iinb.ga][url-short] | ![img-iinbrand-short]
+CDN | [cdn.iinb.ga][url-cdn] | ![img-iinbrand-cdn]
+Demo | [demo.iinbrand.com][url-demo] | ![img-iinbrand-demo]
 
 ---
 
@@ -68,9 +64,19 @@ comming Soon..
 - Attapong Jakkrawantanarak (Ton) - iOS Developer
 - Pakkapon Jirachatmongkon (May) - Andriod Developer
 
+---
+© 2016 [iinbrand.][link-iinbrand]
+
+
 [link-docs]: #
 [link-faq]: #
 [link-info]: #
+[link-iinbrand]: https://iinbrand.com
+[link-repo-docs]: https://github.com/iinbrand/docs
+[link-travis]: https://travis-ci.org/iinbrand/iinbrand
+[link-twitter]: https://twitter.com/intent/follow?ref_src=twsrc%5Etfw&region=follow_link&screen_name=iinbrand&tw_p=followbutton
+[link-about]: http://about.iinbrand.com
+[link-docs]: http://docs.iinbrand.com
 
 [url-iinbrand]: https://iinbrand.com
 [url-api]: https://api.iinbrand.comt
@@ -82,6 +88,21 @@ comming Soon..
 [build-api-codeship]: https://codeship.com/projects/2c072e30-9589-0133-9335-4a53072d6648/status?branch=master
 [build-api-travis]: https://travis-ci.com/pkfrom/api-server.svg?token=CKNmmWMzvESXkb4Jy7Kp&branch=master
 
----
+[logo]: https://cdn.iinb.ga/img/logo/logox32.svg "Logo"
+[banner]: https://cdn.iinb.ga/img/logo/logox120.svg "Logo banner"
 
-© 2016 [iinbrand.](https://iinbrand.com)
+[img-version-docs]: https://img.shields.io/github/tag/iinbrand/docs.svg?style=flat&label=version
+[img-iinbrand-about]: https://img.shields.io/badge/iinbrand-about-1ab691.svg?style=flat
+[img-iinbrand-docs]: https://img.shields.io/badge/iinbrand-docs-1ab691.svg?style=flat
+[img-iinbrand-site]: https://img.shields.io/badge/iinbrand-site-1ab691.svg?style=flat
+[img-iinbrand-demo]: https://img.shields.io/badge/iinbrand-demo-1ab691.svg?style=flat
+[img-iinbrand-api]: https://img.shields.io/badge/iinbrand-api-1ab691.svg?style=flat
+[img-iinbrand-cdn]: https://img.shields.io/badge/iinbrand-cdn-1ab691.svg?style=flat
+[img-iinbrand-short]: https://img.shields.io/badge/iinbrand-short-1ab691.svg?style=flat
+[img-travis]: https://travis-ci.org/iinbrand/iinbrand.svg?branch=gh-pages
+[img-twitter]: https://img.shields.io/twitter/follow/iinbrand.svg?style=social
+
+
+
+
+
